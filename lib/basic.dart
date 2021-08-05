@@ -11,7 +11,7 @@ class User {
 class BasicProvider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var user = User('Ryan Nguyen');
+    var user = User('Frank Shaw');
 
     return Provider<User>.value(
       value: user,
